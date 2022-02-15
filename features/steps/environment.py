@@ -2,8 +2,7 @@ from selenium import webdriver
 # Início
 def before_all(context):    # Antes de Tudo
     # Declarar o Selenium, instanciar como o navegador e apontar o driver
-    context.driver = webdriver.Chrome('C:/Users/SAFIRA/PycharmProjects/2blazedemo/drivers/chrome96/chromedriver.exe')
-
+    #context.driver = webdriver.Chrome('C:/Users/SAFIRA/PycharmProjects/2blazedemo/drivers/chrome96/chromedriver.exe')
 
     # Maximizar a janela do navegador
     context.driver.maximize_window()
